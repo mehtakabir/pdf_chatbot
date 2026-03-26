@@ -1,0 +1,32 @@
+# Environment variables
+python-dotenv==1.0.1
+
+# HTTP requests
+requests==2.32.3
+
+# LangChain core
+langchain==0.3.25
+langchain-core==0.3.63
+langchain-community==0.3.23
+langchain-text-splitters==0.3.8
+
+# LangChain integrations
+langchain-chroma==0.2.4
+langchain-ollama==0.3.2
+langchain-aws==0.2.14       # ChatBedrockConverse — reads AWS_BEARER_TOKEN_BEDROCK automatically
+
+# Vector database
+chromadb==1.0.9
+
+# PDF loader
+pymupdf==1.25.5
+
+# LangSmith tracing
+langsmith==0.3.27
+
+# AWS
+boto3==1.42.74
+botocore==1.42.74
+
+# BM25 keyword search (EnsembleRetriever)
+rank_bm25==0.2.2
